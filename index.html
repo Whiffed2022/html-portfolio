@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+</head>
+
+<body>
+    <h1>Book</h1>
+    <h2>Chapter 1</h2>
+    <h3>Section 1</h3>
+    <h3>Section 2</h3>
+    <h2>Chapter 2</h2>
+    <h3>Section 1</h3>
+    <h4>Diagram 1</h4>
+    <h2>Chapter 3</h2>
+    <h3>Section 1</h3>
+    <h3>Section 2</h3>
+
+    <a href="./about.html" target="_blank">About Me</a>
+
+    <hr />
+    <p>Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Duis iaculis lacus mauris, eget euismod ex rutrum id.<br /> Etiam nunc sem, semper sed enim non, condimentum imperdiet justo. Nullam aliquet metus id tempor suscipit. In sodales felis
+        vitae erat luctus rhoncus. Quisque scelerisque ex ex, eu vulputate sapien interdum quis. Vestibulum luctus, quam sit amet feugiat ultrices, enim mi auctor odio, nec sollicitudin ex ante finibus diam. Maecenas eu tortor quis libero bibendum scelerisque.</p>
+    <hr />
+    <p>Vivamus auctor ultricies odio quis porta. Ut cursus felis ut erat elementum rhoncus eu in sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus quis nisi in nulla tempus euismod. Etiam sodales
+        convallis enim, in tempus leo efficitur in. Pellentesque semper eget odio ac volutpat. Pellentesque consequat ipsum ac nisi pharetra tristique.</p>
+    <hr />
+    <p>Sed vulputate, erat tincidunt mattis maximus, mi justo luctus nisi, quis lobortis nulla tortor eget nulla. Curabitur quam orci, posuere a eleifend quis, accumsan ut erat. Morbi finibus viverra erat, vitae lobortis arcu dictum ut. Vivamus eget lacinia
+        libero. Curabitur eu tortor ligula. Duis ultrices tincidunt leo, a tempus erat. Nam molestie ornare interdum. Donec facilisis, dui nec egestas posuere, dolor metus porta augue, vitae viverra urna odio sed est. Fusce magna augue, feugiat sed orci
+        ac, ultrices venenatis ante. Donec molestie diam odio, et pellentesque ante vulputate id. Etiam et sollicitudin enim. Nullam mollis faucibus sodales. In hendrerit tortor erat, non sodales nisl lacinia at. Class aptent taciti sociosqu ad litora
+        torquent per conubia nostra, per inceptos himenaeos. Proin ut mollis arcu, at tempus tortor.</p>
+    <hr />
+    <!--Void Elements & paragraphs, br used as a newline, and hr used as a divider -->
+
+    <!--Unordered Lists (<ul><li></li></ul>)-->
+
+    <p>This is what I like about Demon Slayer:</p>
+    <ul>
+        <li>Amazing anime with great character design</li>
+        <li>Nezuko is great</li>
+        <li>Amazing drawing and animation</li>
+    </ul>
+
+    <!--Ordered Lists (<ol><li></li></ol>)-->
+
+    <p>This is how to restart your computer:</p>
+    <ol>
+        <li>Press the windows button</li>
+        <li>Press the power button.</li>
+        <li>Select restart and confirm your selection.</li>
+    </ol>
+
+    <!--Nesting lists (ul inside ul or ol inside ol)-->
+    <p>Here's my daily routine:</p>
+    <ol>
+        <li>Wake up and brush my teeth.</li>
+        <li>Take a shower</li>
+        <li>Make an omelette
+            <ol>
+                <li>Take 5 eggs and whisk them with milk</li>
+                <li>Add butter to the pan</li>
+                <li>Add eggs in and stir</li>
+                <li>Add salt when solid and transfer to clean plate</li>
+            </ol>
+        </li>
+        <li>Start work</li>
+    </ol>
+    <p>Here's my daily routine:</p>
+    <ul>
+        <li>Wake up and brush my teeth.</li>
+        <li>Take a shower</li>
+        <li>Make an omelette
+            <ol>
+                <li>Take 5 eggs and whisk them with milk</li>
+                <li>Add butter to the pan</li>
+                <li>Add eggs in and stir</li>
+                <li>Add salt when solid and transfer to clean plate</li>
+            </ol>
+        </li>
+        <li>Start work</li>
+    </ul>
+
+    <!--Anchor Elements, allows us to create hyperlinks-->
+    <hr />
+    <p>If you are interested in my GitHub profile, click <a href="https://github.com/Whiffed2022" draggable=true>here</a>! </p>
+    <hr />
+
+    <!--Image elements: <img src="url" /> (Void element like br and hr), uses alt attribute (alternative text description)-->
+
+    <img src="https://picsum.photos/200" alt="forest at sunset" />
+    <hr />
+
+    <!--HTML uses relative paths, ../filename.jpg = go up a level (outside the heading element folder into downloads) and grab file from there, or ./dog.png for example tells us to look at current directory-->
+    <img src="./assets/images/cat.jpg" alt="cute cat photo" width="400" height="500" />
+    <br />
+    <a href="./about.html"><img src="./assets/images/dog.jpg" alt="cute dog photo" width="400" height="500" /></a>
+    <br />
+    <img src="./assets/images/rabbit.jpg" alt="cute rabbit photo" width="400" height="500" />
+    <br />
+</body>
+
+</html>
